@@ -1,0 +1,21 @@
+p{
+    font-family: 'Calibri';
+    font-weight: 800;
+    font-size: 23px;
+    margin: 1.66%;
+    border-bottom: 2px solid rgba(155, 153, 153, 0.5);
+    width: 30%;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+img{
+    width: 30%;
+    height: 400px;
+    margin: 1.66%;
+}
+img:hover {
+      opacity: 0.6;
+        cursor: pointer;
+      }
