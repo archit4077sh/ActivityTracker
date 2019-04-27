@@ -3,7 +3,7 @@ var router = express.Router();
 var user = require('../model/model.js');
 
 
-
+router.get('/' , function(req ,res){res.send("Server Started")})
 router.post('/add' , function(req , res){
 
   var temp_user = new user(
