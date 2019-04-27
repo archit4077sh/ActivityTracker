@@ -20,7 +20,7 @@ export class AdminService {
    //     image_type : "dummy",
    //     instance : "dummy"}];
 
-  constructor(http : HttpClient) { }
+  constructor(private http : HttpClient) { }
   // get_req()
    // {
    //   return this.http.get('http://localhost:3000/list');

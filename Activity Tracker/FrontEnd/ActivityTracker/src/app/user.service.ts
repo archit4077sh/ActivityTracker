@@ -8,7 +8,7 @@ import { Observable , of} from 'rxjs';
 })
 export class UserService {
 
-  constructor(http : HttpClient) { }
+  constructor(private http : HttpClient) { }
   post_req(data : User)
  {
    return this.http.post('http://localhost:3000/add' , data);
