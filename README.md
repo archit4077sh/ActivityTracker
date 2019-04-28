@@ -24,6 +24,7 @@ The information stored about user is -
 </br>
 4.Timestamp of Activity.
 </br>
+</br>
 To use the application clone the repository and go to ActivityTracker/BackEnd and open terminal and use the following command(assuming you have npm and angular7 installed if not please do that first)
 </br>
 </br>
