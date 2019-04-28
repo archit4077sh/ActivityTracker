@@ -40,7 +40,7 @@ Now start the mongoDB in your PC by using-
 sudo service mongod start
 </br>
 </br>
-or if you don't want to use local database just follow connection.js in that file instructions are given to coonnect to cloud database.
+or if you don't want to use local database just follow Activity Tracker/BackEnd/connection.js in that file instructions are given to coonnect to cloud database.
 </br>
 </br>
 
