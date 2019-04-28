@@ -1,6 +1,6 @@
 # ActivityTracker
-Activity Tracker is an application running on http://localhost:4200/. This application track the user activities on page
-http://localhost:4200/:id (where id can be any string) and display that user activity on page http://localhost:4200/:id/admin.
+Activity Tracker is an application running on http://localhost:4200/. This application tracks the user activities on page
+http://localhost:4200/:id (where id can be any string) and displays that user activity on page http://localhost:4200/:id/admin.
 Frontend part of this application is made using Angular7 and it contains 5 images.
 </br>
 </br>
@@ -45,6 +45,57 @@ ng serve --open
 </br>
 now this will open the application in your browser.
 
+# Brief Understanding of Structure
+# BackEnd
+BackEnd Folder Structure
+</br>
+</br>
+![BackEndStructure](BackEndStructure.png)
+</br>
+</br>
+connection.js - Establish connection to mongoDB database.
+</br>
+</br>
+model/model.js - Contain the model of the user information.
+</br>
+</br>
+controller/userController.js - Contain the routing part of the Backend Server.Data is extracted from database and sent to Angular Server from this file and the data about user activity comes from Angular Server is saved to database from this file.
+</br>
+</br>
+index.js - Server is created from this file.
+
+# FrontEnd
+A Part of FrontEnd Folder Structure
+</br>
+</br>
+![FrontEndStructure](FrontEndStructure.png)
+</br>
+</br>
+Components - admin , user
+</br>
+</br>
+Services - admin.service.ts , user.service.ts
+</br>
+</br>
+The admin and user are the components each having their own folder.
+</br>
+</br>
+The images are displayed in user component in user.component.html.
+</br>
+</br>
+The user activity is displayed in the admin component in admin.component.html.
+</br>
+</br>
+Routing information is stored in the file app-routing.module.ts.
+</br>
+</br>
+The post request is performed with the help of HttpClientModule and user.service.ts.Whenever a user activity is observed,data is sent to NodeJS server with the help of post request and then data gets save in the database and the logic for the same is written in  user.component.ts file and userController.js file(from BackEnd).
+</br>
+</br>
+The post request is performed with the help of HttpClientModule and admin.service.ts.The id of user is sent to NodeJS server with the help of post request and the response that comes from post request contain the data that is required to display and the logic for the same is written in admin.comonent.ts file and userController.js file(from BackEnd).
+</br>
+</br>
+assets - This folder contain the images which are to be displayed.
 
 
 
