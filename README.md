@@ -18,7 +18,6 @@ The information stored about user is -
 </br>
 1.ID
 </br>
-</br>
 2.Type of activity ie. click/hover
 </br>
 3.ImageID that was clicked/hovered
