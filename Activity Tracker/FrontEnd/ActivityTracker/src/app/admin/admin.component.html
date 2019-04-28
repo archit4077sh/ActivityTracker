@@ -1,6 +1,6 @@
 <h2 align = 'Center'>Activity</h2>
-<ul *ngFor = "let user of users">
-  <li>ID: {{ user.user_id | titlecase }}</li>
+<ul *ngFor = "let user of users">   <!-- Looping each user of users array-->
+  <li>ID: {{ user.user_id}}</li> <!-- Fetching data by one way data binding -->
   <li>Image: {{ user.image_type }}</li>
   <li>Event: {{ user.event_type | titlecase}}</li>
   <li>Timestamp: {{user.instance}}</li>
