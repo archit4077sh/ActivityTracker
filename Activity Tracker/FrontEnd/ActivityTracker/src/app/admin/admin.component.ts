@@ -21,11 +21,7 @@ export class AdminComponent implements OnInit {
 
   ngOnInit() {
 
-<<<<<<< HEAD
  this.post_req(); //post_req will be called on initialization of admin component
-=======
- this.post_req();
->>>>>>> 03b481d... Comments Removed
   }
  post_req() : void{
 

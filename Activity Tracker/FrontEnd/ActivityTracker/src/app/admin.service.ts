@@ -12,11 +12,7 @@ import { Id } from './id_model';//requiring it because in post_req function data
 })
 export class AdminService {
 
-<<<<<<< HEAD
-  constructor(private http : HttpClient) { } //http is a private prperty and also a HttpClient injection site
-=======
   constructor(private http : HttpClient) { }
->>>>>>> 03b481d... Comments Removed
 
    post_req(data : Id) //post request to http://localhost:3000/list for fetching the data from database have user_id = data.user_id
    {

@@ -21,31 +21,19 @@ export class UserComponent implements OnInit {
 
   onClick(image_type) //If there is click event on image on user.component.html page then this function sends the data to  http://localhost:3000/add for adding to database
     {
-<<<<<<< HEAD
     this.data.user_id = this.route.snapshot.paramMap.get('id'); //fetching the id of the user from the URL
-=======
-    this.data.user_id = this.route.snapshot.paramMap.get('id');
->>>>>>> 03b481d... Comments Removed
     this.data.event_type = 'click';
     this.data.image_type = image_type;
     this.data.instance = new Date().toString().substring(0,24);//finding a substring of Timestamp
 
-<<<<<<< HEAD
     this.userService.post_req(this.data).subscribe();//calling post_req function in UserService and subscribing the Observable returned
-=======
-    this.userService.post_req(this.data).subscribe();
->>>>>>> 03b481d... Comments Removed
 
     }
 
     onHover(image_type)//If there is hover event on image on user.component.html page then this function sends the data to  http://localhost:3000/add for adding to database
     {
 
-<<<<<<< HEAD
    this.data.user_id = this.route.snapshot.paramMap.get('id');//fetching the id of the user from the URL
-=======
-   this.data.user_id = this.route.snapshot.paramMap.get('id');
->>>>>>> 03b481d... Comments Removed
    this.data.event_type = 'hover';
    this.data.image_type = image_type;
    this.data.instance = new Date().toString().substring(0,24);//finding a substring of Timestamp
