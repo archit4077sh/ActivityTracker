@@ -50,7 +50,7 @@ Now in ActivityTracker/BackEnd use the following command-
 node index.js  
 </br>
 </br>
-In ActivityTracker/FrontEnd/ActivityTracker use the following command-
+Now in ActivityTracker/FrontEnd/ActivityTracker use the following command-
 </br>
 </br>
 ng serve --open
