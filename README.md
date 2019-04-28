@@ -18,12 +18,25 @@ The information stored about user is -
 </br>
 1.ID
 </br>
-2.Type of activity ie. click/hover
+2.Type of Activity ie. Click/Hover
 </br>
-3.ImageID that was clicked/hovered
+3.ImageID that was Clicked/Hovered
 </br>
-4.Timestamp of activity.
+4.Timestamp of Activity.
 </br>
+To use the application clone the repository and go to ActivityTracker/BackEnd and open terminal and use command(assuming you have npm and angular7 installed if not please do that first)
+</br>
+npm install
+</br>
+and then goto ActivityTracker/FrontEnd/ActivityTracker and use the same command again.
+</br>
+now use command
+</br>
+node index.js in ActivityTracker/BackEnd and in ActivityTracker/FrontEnd/ActivityTracker use the following command
+</br>
+ng serve --open
+</br>
+now this will open the application on browser.
 
 
 
