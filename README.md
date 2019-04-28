@@ -31,7 +31,20 @@ To use the application clone the repository and go to ActivityTracker/BackEnd an
 npm install
 </br>
 </br>
-and then goto ActivityTracker/FrontEnd/ActivityTracker and use the same command again.Now in ActivityTracker/BackEnd use the following command-
+and then goto ActivityTracker/FrontEnd/ActivityTracker and use the same command again.
+</br>
+</br>
+Now start the mongoDB in your PC by using-
+</br>
+</br>
+sudo service mongod start
+</br>
+</br>
+or if you don't want to use local database just follow connection.js in that file instructions are given to coonnect to cloud database.
+</br>
+</br>
+
+Now in ActivityTracker/BackEnd use the following command-
 </br>
 </br>
 node index.js  
