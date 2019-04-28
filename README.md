@@ -24,19 +24,25 @@ The information stored about user is -
 </br>
 4.Timestamp of Activity.
 </br>
-To use the application clone the repository and go to ActivityTracker/BackEnd and open terminal and use command(assuming you have npm and angular7 installed if not please do that first)
+To use the application clone the repository and go to ActivityTracker/BackEnd and open terminal and use the following command(assuming you have npm and angular7 installed if not please do that first)
+</br>
 </br>
 npm install
 </br>
-and then goto ActivityTracker/FrontEnd/ActivityTracker and use the same command again.
 </br>
-now use command
+and then goto ActivityTracker/FrontEnd/ActivityTracker and use the same command again.Now in ActivityTracker/BackEnd use the following command-
 </br>
-node index.js in ActivityTracker/BackEnd and in ActivityTracker/FrontEnd/ActivityTracker use the following command
+</br>
+node index.js  
+</br>
+</br>
+In ActivityTracker/FrontEnd/ActivityTracker use the following command-
+</br>
 </br>
 ng serve --open
 </br>
-now this will open the application on browser.
+</br>
+now this will open the application in your browser.
 
 
 
