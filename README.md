@@ -1,5 +1,5 @@
 # ActivityTracker
-Activity Tracker is an application running on http://localhost:4200/. This application tracks the user activities on page
+Activity Tracker is an application which runs on http://localhost:4200/. This application tracks the user activities on page
 http://localhost:4200/:id (where id can be any string) and displays that user activity on page http://localhost:4200/:id/admin.
 Frontend part of this application is made using Angular7 and it contains 5 images.
 </br>
@@ -40,7 +40,7 @@ Now start the mongoDB in your PC by using-
 sudo service mongod start
 </br>
 </br>
-or if you don't want to use local database just follow Activity Tracker/BackEnd/connection.js in that file instructions are given to coonnect to cloud database.
+or if you don't want to use local database just follow Activity Tracker/BackEnd/connection.js in that file instructions are given to connect to cloud database.
 </br>
 </br>
 
